@@ -2502,7 +2502,7 @@ client.on('message', message => {
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`:small_orange_diamond: اضغط هنا `)
-        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=466256531998900246&permissions=8&scope=bot`)
+        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=529685972204650507&permissions=8&scope=bot`)
         .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
      message.channel.sendEmbed(embed);
        }
@@ -3464,7 +3464,7 @@ client.on('guildDelete', guild => {
   أسم الأونر: [ ${guild.owner} ]
   أيدي السيرفر: [ ${guild.id} ]
   عدد أعضاء السيرفر: [ ${guild.memberCount} ]`)
-  client.channels.get("529481611050483728").sendEmbed(joinedbot);
+  client.channels.get("530850013526622248").sendEmbed(joinedbot);
 });
 
 
@@ -3476,7 +3476,7 @@ client.on('guildDelete', guild => {
   أسم الأونر: [ ${guild.owner} ]
   أيدي السيرفر: [ ${guild.id} ]
   عدد أعضاء السيرفر: [ ${guild.memberCount} ]`)
-  client.channels.get("529481611050483728").sendEmbed(kickedbot);
+  client.channels.get("530850013526622248").sendEmbed(kickedbot);
 });
 
 
