@@ -3456,7 +3456,7 @@ client.on('message',async message => {
 
 
 
-client.on('guildDelete', guild => {
+client.on('guildCreate', guild => {
   let joinedbot = new Discord.RichEmbed()
   .setColor('RANDOM')
   .setTitle('✅ | تم دخول سيرفر جديد')
